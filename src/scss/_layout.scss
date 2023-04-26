@@ -9,3 +9,33 @@
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
+
+#header-contain {
+  @media (max-width: 768px) {
+    .header-burger {
+      width: 31px;
+    }
+    .header-languages {
+      font-size: 10px;
+      line-height: 12px;
+    }
+    .header-punch-line {
+      font-size: 20px;
+      line-height: 27px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .header-burger {
+      width: 60px;
+    }
+    .header-languages {
+      font-size: 17px;
+      line-height: 21px;
+    }
+    .header-punch-line {
+      font-size: 32px;
+      line-height: 45px;
+    }
+  }
+}
