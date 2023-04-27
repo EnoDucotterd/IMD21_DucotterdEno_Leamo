@@ -23,6 +23,9 @@
       font-size: 20px;
       line-height: 27px;
     }
+    .header-valeurs {
+      width: 161px;
+    }
   }
 
   @media (min-width: 768px) {
@@ -36,6 +39,112 @@
     .header-punch-line {
       font-size: 32px;
       line-height: 45px;
+    }
+    .header-valeurs {
+      width: 187px;
+    }
+  }
+}
+
+#products-contain {
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 30px;
+      line-height: 42px;
+    }
+    img {
+      width: 100%;
+    }
+    .description {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+  @media (min-width: 768px) {
+    h2 {
+      font-size: 36px;
+      line-height: 50px;
+    }
+    img {
+      width: 1440px;
+    }
+    .description {
+      font-size: 22px;
+      line-height: 27px;
+    }
+  }
+
+  .button {
+    font-size: 22px;
+    line-height: 31px;
+  }
+}
+
+#location-contain {
+  @media (max-width: 768px) {
+    .location-img {
+      display: none;
+    }
+    .location-text {
+      font-size: 20px;
+      letter-spacing: 1.76px;
+    }
+
+    h2 {
+      font-size: 18px;
+      letter-spacing: 2.84px;
+    }
+  }
+  @media (min-width: 768px) {
+    .location-img {
+      display: visible;
+    }
+    .location-text {
+      font-size: 35px;
+      letter-spacing: 3.08px;
+    }
+    h2 {
+      font-size: 36px;
+
+      letter-spacing: 5.69px;
+    }
+  }
+  ul {
+    list-style: none;
+  }
+}
+
+#footer-contain {
+  @media (max-width: 768px) {
+    .footer-drink {
+      width: 40px;
+    }
+    .footer-social img {
+      width: 40px;
+    }
+    .footer-logo {
+      width: 71px;
+    }
+    .footer-legal {
+      font-size: 23px;
+      color: #131313;
+      letter-spacing: 3.63px;
+    }
+  }
+  @media (min-width: 768px) {
+    .footer-drink {
+      width: 51px;
+    }
+    .footer-social img {
+      width: 62px;
+    }
+    .footer-logo {
+      width: 84px;
+    }
+    .footer-legal {
+      font-size: 23px;
+
+      letter-spacing: 3.63px;
     }
   }
 }
