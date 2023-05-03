@@ -111,7 +111,7 @@
     }
 
     h2 {
-      font-size: 18px;
+      font-size: 30px;
       letter-spacing: 2.84px;
     }
   }
@@ -125,7 +125,6 @@
     }
     h2 {
       font-size: 36px;
-
       letter-spacing: 5.69px;
     }
   }
@@ -161,6 +160,12 @@
       color: #131313;
       letter-spacing: 3.63px;
     }
+    .l-drink {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
   }
   @media (min-width: 768px) {
     .footer-drink {
@@ -176,6 +181,8 @@
       font-size: 23px;
 
       letter-spacing: 3.63px;
+    }
+    .l-drink {
     }
   }
 }
