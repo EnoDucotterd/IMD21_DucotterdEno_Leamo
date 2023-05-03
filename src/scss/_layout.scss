@@ -86,17 +86,28 @@
   @media (max-width: 768px) {
     .l-article {
       padding: 50px 50px 78px 50px;
+      height: 498px;
+      font-size: 18px;
+      color: #131313;
+      letter-spacing: 1.58px;
     }
   }
   @media (min-width: 768px) {
     .l-article {
       padding: 85px 94px;
+      height: 696px;
+      font-size: 22px;
+      color: #131313;
+      letter-spacing: 1.94px;
     }
   }
 
   .button {
     font-size: 22px;
     line-height: 31px;
+    background: black;
+    width: 152px;
+    padding: 7px 26px;
   }
 }
 
@@ -182,7 +193,9 @@
 
       letter-spacing: 3.63px;
     }
-    .l-drink {
-    }
+  }
+  .footer-social {
+    display: flex;
+    justify-content: flex-end;
   }
 }
