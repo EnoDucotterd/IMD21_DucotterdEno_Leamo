@@ -1,2 +1,15 @@
 #products-contain {
+  h2 {
+    font-family: SemplicitaPro-Semibold;
+    color: #131313;
+  }
+  .l-article {
+    font-family: Satoshi-Regular;
+  }
+  .product-img {
+    height: 100%;
+    img {
+      object-fit: cover;
+    }
+  }
 }
