@@ -72,6 +72,9 @@
       font-size: 18px;
       line-height: 22px;
     }
+    .button {
+      margin-top: 81px;
+    }
   }
   @media (min-width: 768px) {
     h2 {
@@ -86,6 +89,9 @@
     .description {
       font-size: 22px;
       line-height: 27px;
+    }
+    .button {
+      margin-top: 27px;
     }
   }
   @media (max-width: 768px) {
@@ -130,6 +136,7 @@
     h2 {
       font-size: 30px;
       letter-spacing: 2.84px;
+      margin-bottom: 15px;
     }
   }
   @media (min-width: 768px) {
@@ -143,6 +150,7 @@
     h2 {
       font-size: 36px;
       letter-spacing: 5.69px;
+      margin-bottom: 36px;
     }
   }
   @media (max-width: 768px) {
@@ -162,12 +170,16 @@
 }
 
 #footer-contain {
+  padding: 10%;
+
   @media (max-width: 768px) {
     .footer-drink {
       width: 40px;
+      margin-bottom: 55px;
     }
     .footer-social img {
       width: 40px;
+      margin-right: 40px;
     }
     .footer-logo {
       width: 71px;
@@ -177,19 +189,15 @@
       color: #131313;
       letter-spacing: 3.63px;
     }
-    .l-drink {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-    }
   }
   @media (min-width: 768px) {
     .footer-drink {
       width: 51px;
+      margin-bottom: 70px;
     }
     .footer-social img {
       width: 62px;
+      margin-right: 60px;
     }
     .footer-logo {
       width: 84px;
@@ -203,5 +211,12 @@
   .footer-social {
     display: flex;
     justify-content: flex-end;
+  }
+  .l-drink {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
   }
 }

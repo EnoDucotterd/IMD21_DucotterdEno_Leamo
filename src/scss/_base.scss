@@ -26,6 +26,7 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+  font-family: Satoshi-Regular;
 }
 
 a {
@@ -53,4 +54,12 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+h2 {
+  font-family: SemplicitaPro-Semibold;
+  font-size: 36px;
+  color: #131313;
+  letter-spacing: 5.69px;
+  text-transform: uppercase;
 }
