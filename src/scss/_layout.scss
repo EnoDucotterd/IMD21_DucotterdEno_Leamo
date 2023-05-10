@@ -157,9 +157,15 @@
       color: #131313;
       letter-spacing: 1.58px;
       text-overflow: hidden;
+      box-shadow: 0px 13px 20px 0px rgba(0, 0, 0, 0.5);
     }
     .bottles {
       width: 85px;
+      margin: 20px;
+    }
+    .l-mockup {
+      padding: 93px 41px;
+      z-index: -1;
     }
   }
   @media (min-width: 768px) {
@@ -169,6 +175,15 @@
       font-size: 22px;
       color: #131313;
       letter-spacing: 1.94px;
+      box-shadow: 0px 13px 20px 0px rgba(0, 0, 0, 0.5);
+    }
+    .bottles {
+      width: 167px;
+      margin: 0 110px;
+    }
+    .l-mockup {
+      padding: 41px 240px;
+      z-index: -1;
     }
   }
   .product-img {
@@ -182,6 +197,10 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    z-index: 0;
+  }
+  .l-article {
+    z-index: 1;
   }
 
   .button {

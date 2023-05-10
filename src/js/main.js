@@ -7,3 +7,13 @@ var activateBurger = function () {
 };
 
 trigger.addEventListener("click", activateBurger);
+
+var openMockup = document.querySelector(".product-range");
+
+var slidder = document.querySelector(".button");
+
+var activateMockup = function () {
+  openMockup.classList.toggle(".is-slipped");
+};
+
+slidder.addEventListener("click", activateMockup);
