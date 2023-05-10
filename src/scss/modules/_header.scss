@@ -1,20 +1,9 @@
 #header-contain {
-  @media (max-width: 768px) {
-    .header-punch-line {
-      font-size: 20px;
-      letter-spacing: 1.76px;
-      line-height: 27px;
-    }
-  }
-  @media (min-width: 768px) {
-    .header-punch-line {
-      width: 400px;
-      font-size: 32px;
-      letter-spacing: 2.82px;
-      margin: 10% 2%;
-    }
-  }
   nav {
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    left: 0;
     font-family: Satoshi-Medium;
     background-color: #e8d7c3;
   }
@@ -24,5 +13,19 @@
   }
   .header-languages {
     text-transform: uppercase;
+  }
+
+  #navigate {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    background: #e8d7c3;
+  }
+  .header-nav {
+    transform: translateX(-100%);
+    transition: 0.5s;
+  }
+  .header-nav.is-active {
+    transform: translateX(0%);
   }
 }

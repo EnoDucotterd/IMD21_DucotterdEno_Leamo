@@ -27,6 +27,8 @@ body {
   font-size: 1rem;
   line-height: 1.25;
   font-family: Satoshi-Regular;
+  padding-top: 100px;
+  background: #d0856a;
 }
 
 a {
@@ -46,15 +48,6 @@ video {
 
 // font-family: "semplicitapro", sans-serif;
 // font-weight: 400;
-// font-style: normal;
-
-header {
-  height: 624px;
-  background-image: url("/src/img/pool@2x.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
 
 h2 {
   font-family: SemplicitaPro-Semibold;
@@ -62,4 +55,12 @@ h2 {
   color: #131313;
   letter-spacing: 5.69px;
   text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
