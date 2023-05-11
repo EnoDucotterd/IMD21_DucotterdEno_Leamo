@@ -17,7 +17,7 @@
 
   #navigate {
     position: fixed;
-    top: 100px;
+    top: 120px;
     left: 0;
     background: #e8d7c3;
   }
@@ -27,5 +27,9 @@
   }
   .header-nav.is-active {
     transform: translateX(0%);
+  }
+
+  .header-burger.is-rotated {
+    transform: rotate(90deg);
   }
 }

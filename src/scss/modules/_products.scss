@@ -4,10 +4,17 @@
     color: #131313;
   }
 
+  .bottles:hover {
+  }
+
   .product-range {
-    transform: translateY(-50%);
+    display: none;
   }
-  .is-slipped {
-    visibility: visible;
+  .is-revealed {
+    display: flex;
   }
+}
+
+.button:hover {
+  background-color: white;
 }

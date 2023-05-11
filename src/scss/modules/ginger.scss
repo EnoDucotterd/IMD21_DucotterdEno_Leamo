@@ -4,4 +4,8 @@
   .button {
     color: #f6a37a;
   }
+  .button:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+  }
 }

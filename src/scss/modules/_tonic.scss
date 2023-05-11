@@ -3,4 +3,8 @@
   .button {
     color: #e2e0e0;
   }
+  .button:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+  }
 }
