@@ -5,6 +5,8 @@
   }
 
   .bottles:hover {
+    filter: blur(1px);
+    transition-duration: 0.2s;
   }
 
   .product-range {
@@ -13,8 +15,4 @@
   .is-revealed {
     display: flex;
   }
-}
-
-.button:hover {
-  background-color: white;
 }

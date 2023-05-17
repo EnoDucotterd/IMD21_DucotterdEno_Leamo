@@ -1,3 +1,10 @@
 #footer-contain {
   background-color: #6a85a2;
+  .footer-drink:hover {
+    filter: blur(1px);
+    transition-duration: 0.2s;
+  }
+  .social-img:hover {
+    transform: scale(1.1);
+  }
 }

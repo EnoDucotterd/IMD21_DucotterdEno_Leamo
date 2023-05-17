@@ -14,7 +14,7 @@
           <div class="row align-items-center">
             <div class="col-4">
               <img
-                class="header-burger"
+                class="header-burger rotation"
                 src="img/burgerMenu@2x.png"
                 alt="burger menu"
               />
@@ -37,15 +37,15 @@
           <div class="col-sm-12 col-lg-4">
             <div class="header-nav" id="navigate">
               <h2>Nos Produits</h2>
-              <a href="">Sodas</a>
-              <a href="">Limonades</a>
-              <a href="">Tonics</a>
-              <a href="">Ginger</a>
+              <a href="#cola">Sodas</a>
+              <a href="#lemon">Limonades</a>
+              <a href="#schweps">Tonics</a>
+              <a href="#ale">Ginger</a>
               <h2>A Propos</h2>
-              <a href="">points de ventes</a>
-              <a href="">nos valeurs</a>
-              <a href="">nos recettes</a>
-              <a href="">Contacts</a>
+              <a href="#place">points de ventes</a>
+              <a href="#value">nos valeurs</a>
+              <a href="#recipe">nos recettes</a>
+              <a href="#callus">Contacts</a>
             </div>
           </div>
         </div>
@@ -62,6 +62,7 @@
               class="header-valeurs"
               src="img/valeurs@2x.png"
               alt="valeurs éthiques"
+              id="values"
             />
           </div>
         </div>
@@ -72,7 +73,7 @@
         <div class="description soda" id="soda-contain">
           <div class="container">
             <div class="row">
-              <div class="col-sm-12 col-lg-6 g-0">
+              <div class="col-sm-12 col-lg-6 g-0" id="cola">
                 <div class="product-img">
                   <img src="img/soda_packshot@2x.png" alt="cola packshot" />
                 </div>
@@ -125,6 +126,7 @@
                   <img
                     src="img/lemonade_packshot@2x.png"
                     alt="limonade packshot"
+                    id="lemon"
                   />
                 </div>
               </div>
@@ -176,7 +178,11 @@
             <div class="row">
               <div class="col-sm-12 col-lg-6 g-0">
                 <div class="product-img">
-                  <img src="img/tonic_packshot@2x.png" alt="tonic-packshot" />
+                  <img
+                    src="img/tonic_packshot@2x.png"
+                    alt="tonic-packshot"
+                    id="schweps"
+                  />
                 </div>
               </div>
               <div class="col-sm-12 col-lg-6 g-0">
@@ -225,7 +231,11 @@
             <div class="row">
               <div class="col-sm-12 col-lg-6 g-0">
                 <div class="product-img">
-                  <img src="img/ginger_packshot@2x.png" alt="ginger packshot" />
+                  <img
+                    src="img/ginger_packshot@2x.png"
+                    alt="ginger packshot"
+                    id="ale"
+                  />
                 </div>
               </div>
               <div class="col-sm-12 col-lg-6 g-0">
@@ -281,7 +291,7 @@
               </div>
             </div>
             <div class="col-sm-12 col-lg-6 g-0">
-              <article class="location-article">
+              <article class="location-article" id="place">
                 <div class="l-location location-text">
                   <ul>
                     <h2>Nos points de ventes</h2>
@@ -301,22 +311,19 @@
       <div class="footer" id="footer-contain">
         <div class="container">
           <div class="row">
-            <div class="l-drink">
-              <div class="col-4 g-0">
+              <div class="l-drink">
                 <img
                   src="img/tensaiThe@2x.png"
                   alt="tensai thé"
                   class="footer-drink tea"
                 />
-              </div>
-              <div class="col-4 g-0">
+
                 <img
                   src="img/Chilled@2x.png"
                   alt="chilled soda"
                   class="footer-drink cannabis"
                 />
-              </div>
-              <div class="col-4 g-0">
+
                 <img
                   src="img/dameGingembre@2x.png"
                   alt="dame gingembre"
@@ -333,17 +340,17 @@
                     alt="leamo logo"
                   />
                   is a brand from
-                  <img
-                    class="footer-logo"
-                    src="img/AlterfoodLogo@2x.png"
-                    alt="AlterfoodLogo"
-                  />
+                 <a href="https://www.alterfood.fr"> <img
+                  class="footer-logo"
+                  src="img/AlterfoodLogo@2x.png"
+                  alt="AlterfoodLogo"
+                /></a>
                 </div>
               </div>
               <div class="col-sm-12 col-lg-6 g-0">
-                <div class="footer-social">
-                  <img src="img/instaLogo@2x.png" alt="instagram" />
-                  <img src="img/mail@2x.png" alt="mail" />
+                <div class="footer-social" id="callus">
+                  <a href="https://www.instagram.com/leamo/"><img class="social-img"src="img/instaLogo@2x.png" alt="instagram" /></a>
+                  <a href="mailto:hello(@)alterfood.fr"><img class="social-img"src="img/mail@2x.png" alt="mail" /></a>
                 </div>
               </div>
             </div>

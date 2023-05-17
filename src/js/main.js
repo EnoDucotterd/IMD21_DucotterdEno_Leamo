@@ -6,17 +6,21 @@ var activateBurger = function () {
   openBurger.classList.toggle("is-active");
 };
 
+openBurger.addEventListener("click", activateBurger);
+
 trigger.addEventListener("click", activateBurger);
 
-var rotateBurger = document.querySelector(".header-burger");
+var rotateBurger = document.querySelector(".rotation");
 
-var rotater = document.querySelector(".header-Burger");
+var rotater = document.querySelector(".rotation");
 
 var activateRotate = function () {
   rotateBurger.classList.toggle("is-rotated");
 };
 
 rotater.addEventListener("click", activateRotate);
+
+openBurger.addEventListener("click", activateRotate);
 
 // var openMockups = document.querySelector(".product-range");
 
