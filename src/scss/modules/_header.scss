@@ -68,7 +68,11 @@
     font-family: SemplicitaPro-Semibold;
   }
   .header-languages {
+    margin-top: 10px;
     text-transform: uppercase;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
   }
 
   #navigate {
