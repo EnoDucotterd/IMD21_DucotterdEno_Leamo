@@ -1,4 +1,9 @@
 #header-contain {
+  width: 100%;
+  height: 624px;
+  background-image: url("/src/img/pool@2x.png");
+  background-size: cover;
+  background-position: center;
   nav {
     position: fixed;
     top: 0px;
@@ -6,6 +11,10 @@
     left: 0;
     font-family: Satoshi-Medium;
     background-color: #e8d7c3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
   }
   .header-punch-line {
     color: #e8d7c3;
@@ -16,6 +25,11 @@
   }
 
   #navigate {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    padding-bottom: 10%;
     position: fixed;
     top: 120px;
     left: 0;
